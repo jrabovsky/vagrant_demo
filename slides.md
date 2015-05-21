@@ -411,6 +411,7 @@ https://docs.vagrantup.com/v2/
 
 --
 
+* Custom boxes
 * Networking
 * Multi-Machine
 * Other provisioners
