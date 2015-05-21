@@ -3,7 +3,7 @@ class: middle
 
 ---
 
-background-image: url(Vagrant.png)
+background-image: url(/vagrant_demo/Vagrant.png)
 
 ---
 
@@ -72,7 +72,7 @@ hello world
 
 ---
 
-background-image: url(addition.png)
+background-image: url(/vagrant_demo/addition.png)
 
 ---
 
@@ -84,7 +84,7 @@ background-image: url(addition.png)
 
 ---
 
-background-image: url(ui.png)
+background-image: url(/vagrant_demo/ui.png)
 
 ---
 
@@ -198,7 +198,7 @@ $ vagrant up
 
 ---
 
-background-image: url(Windows-vs-Linux.jpg)
+background-image: url(/vagrant_demo/Windows-vs-Linux.jpg)
 
 ---
 
@@ -244,7 +244,7 @@ end
 
 ## By convention, the user name and password are...
 
-.center[![rdp](rdp.png)]
+.center[![rdp](/vagrant_demo/rdp.png)]
 
 ---
 
@@ -274,7 +274,7 @@ d----        05/21/2015  10:12 AM            .vagrant
 
 ---
 
-background-image: url(synced_folders.png)
+background-image: url(/vagrant_demo/synced_folders.png)
 
 ---
 
@@ -315,7 +315,7 @@ end
 
 ---
 
-background-image: url(file.png)
+background-image: url(/vagrant_demo/file.png)
 
 ---
 
@@ -339,7 +339,7 @@ end
 
 ---
 
-background-image: url(shell.png)
+background-image: url(/vagrant_demo/shell.png)
 
 ---
 
@@ -402,7 +402,7 @@ $ rackup -p 9000 -o 0.0.0.0 /tmp/config.ru
 
 # From the host machine...
 
-.center[![web_server](web_server.png)]
+.center[![web_server](/vagrant_demo/web_server.png)]
 
 ---
 
