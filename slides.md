@@ -11,19 +11,63 @@ background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant
 
 --
 
-* A command line tool
-* Automates the use of virtualization software
+A command line tool for creating, managing, and distributing portable portable sandbox environments.
 
 ---
 
-Use a simple DSL to describe your VMs:
-  ```ruby
-    # Vagrantfile
+Zero to VM in seconds
 
-    Vagrant.configure 2 do |config|
-      config.vm.box = "mwrock/Windows2012R2"
-    end
-  ```
+```bash
+$ vagrant init ubuntu/trusty64
+...
+$ vagrant up
+...
+$ vagrant ssh
+vagrant@vagrant-ubuntu-trusty-64:~$ echo hello world
+hello world
+```
+
+---
+
+Use a simple DSL to describe your VMs
+
+```ruby
+  Vagrant.configure 2 do |config|
+    config.vm.box = "ubuntu/trusty64"
+  end
+```
+
+---
+
+# Why bother?
+
+You get "The Cloud"
+but on your machine
+
+---
+
+* Self service
+* Quick provisioning
+* Cost effective
+* Flexible
+
+---
+
+# Benefits
+
+---
+
+## Infrastructure
+* Disposable and isolated test environments
+* Repeatability
+* Fast feedback
+
+---
+
+## Developers
+* Isolate dependancies
+* Consistent dev environments, no more "works on my machine" bugs
+* Get new team members setup quickly
 
 ---
 
@@ -32,6 +76,10 @@ background-image: url(addition.png)
 ---
 
 ## Why not just use VirtualBox/Vmware/Hyper-V?
+
+--
+
+## Workflow
 
 ---
 
